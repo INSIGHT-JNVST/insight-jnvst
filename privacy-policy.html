@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | INSIGHT JNVST Coaching Centre</title>
+<meta name="robots" content="noindex, follow">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar scrolled" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/images/logo.jpg" alt="INSIGHT JNVST Coaching Centre logo" class="brand-logo">
+      <span class="brand-text"><strong>INSIGHT</strong><small>JNVST Coaching Centre</small></span>
+    </a>
+    <div class="navbar-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      <a href="index.html" class="btn btn-primary btn-sm">Back to Home</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="section" style="padding-top:calc(var(--nav-h) + 56px)">
+  <div class="container" style="max-width:820px">
+    <p class="section-label">Legal</p>
+    <h1 style="margin-bottom:24px">Privacy Policy</h1>
+    <p style="margin-bottom:18px">Last updated: <span id="updated-date"></span></p>
+
+    <p style="margin-bottom:18px">This Privacy Policy explains how INSIGHT JNVST Coaching Centre ("we", "us", "our") handles information collected through this website.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">What Information We Collect</h2>
+    <p style="margin-bottom:18px">When you fill out our Admission Enquiry form, we collect the student's name, parent's name, phone number, current class, school, address, and any message you choose to add. This information is sent directly to us via WhatsApp when you submit the form — it is not stored on any server or database by this website.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">How We Use Your Information</h2>
+    <p style="margin-bottom:18px">Information submitted through the admission form is used only to respond to your enquiry, confirm seat availability, and share batch timing and further admission details.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">How We Protect Your Information</h2>
+    <p style="margin-bottom:18px">We do not sell, rent, or share your personal information with third parties. Any details you share with us over phone, WhatsApp, or email are used solely for admission-related communication.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Cookies &amp; Local Storage</h2>
+    <p style="margin-bottom:18px">This website may remember your dark/light mode preference in your browser's local storage. This information stays on your device and is not sent to us.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Contact Us</h2>
+    <p style="margin-bottom:18px">If you have any questions about this Privacy Policy, please contact us at <a href="mailto:iftiazaman4@gmail.com" style="color:var(--blue-600)">iftiazaman4@gmail.com</a> or call +91 86385 09574.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> INSIGHT JNVST Coaching Centre. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+<script>document.getElementById("updated-date").textContent = new Date().toLocaleDateString("en-IN",{year:"numeric",month:"long",day:"numeric"});</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms &amp; Conditions | INSIGHT JNVST Coaching Centre</title>
+<meta name="robots" content="noindex, follow">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar scrolled" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/images/logo.jpg" alt="INSIGHT JNVST Coaching Centre logo" class="brand-logo">
+      <span class="brand-text"><strong>INSIGHT</strong><small>JNVST Coaching Centre</small></span>
+    </a>
+    <div class="navbar-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      <a href="index.html" class="btn btn-primary btn-sm">Back to Home</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="section" style="padding-top:calc(var(--nav-h) + 56px)">
+  <div class="container" style="max-width:820px">
+    <p class="section-label">Legal</p>
+    <h1 style="margin-bottom:24px">Terms &amp; Conditions</h1>
+    <p style="margin-bottom:18px">Last updated: <span id="updated-date"></span></p>
+
+    <p style="margin-bottom:18px">By using this website, you agree to the following terms and conditions.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Website Usage</h2>
+    <p style="margin-bottom:18px">This website is provided to share information about INSIGHT JNVST Coaching Centre, our JNVST Class VI preparation course, and to allow prospective students and parents to enquire about admission.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Admission Enquiries</h2>
+    <p style="margin-bottom:18px">Submitting the admission form or contacting us via phone, WhatsApp, or email does not guarantee a seat. Admission is confirmed only after direct communication with our team and subject to seat availability.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Information Accuracy</h2>
+    <p style="margin-bottom:18px">We make every effort to keep course details, syllabus information, and contact details accurate and up to date. However, official JNVST exam rules, syllabus, and dates are set by the Navodaya Vidyalaya Samiti (NVS) and may change — always verify exam-related details on the official NVS website.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Free Practice Quiz</h2>
+    <p style="margin-bottom:18px">The practice questions in the "Free Quiz" section are written by INSIGHT JNVST Coaching Centre in the style of the JNVST exam pattern, for practice purposes only. They are not official JNVST question papers.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Intellectual Property</h2>
+    <p style="margin-bottom:18px">The content, design, and study material of this website belong to INSIGHT JNVST Coaching Centre and may not be copied or redistributed without permission.</p>
+
+    <h2 style="margin:32px 0 12px;font-size:1.3rem">Contact</h2>
+    <p style="margin-bottom:18px">For questions about these terms, contact us at <a href="mailto:iftiazaman4@gmail.com" style="color:var(--blue-600)">iftiazaman4@gmail.com</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> INSIGHT JNVST Coaching Centre. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+<script>document.getElementById("updated-date").textContent = new Date().toLocaleDateString("en-IN",{year:"numeric",month:"long",day:"numeric"});</script>
+</body>
+</html>
